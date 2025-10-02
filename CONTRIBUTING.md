@@ -44,7 +44,7 @@ uv tool install tox
 
 You can run the unit tests related to the tasks with
 ```
-tox -e py39-pyqt515-cov -- tests/unit/utils
+tox -e py39-pyqt515-cov -- tests/unit/utils/test_urlutils.py
 ```
 
 See [official guide](./doc/contributing.asciidoc#checkers) for more information.
