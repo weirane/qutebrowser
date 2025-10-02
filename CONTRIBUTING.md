@@ -47,4 +47,7 @@ You can run the unit tests related to the tasks with
 tox -e py39-pyqt515-cov -- tests/unit/utils/test_urlutils.py
 ```
 
+Each task will have different tests. Please remember to checkout the proper branch
+before you start the task. (`git checkout url-detection` or `git checkout search-engine`).
+
 See [official guide](./doc/contributing.asciidoc#checkers) for more information.
