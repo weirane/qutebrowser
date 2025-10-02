@@ -1,0 +1,8 @@
+mypy
+lxml  # For HTML reports
+diff-cover
+
+PyQt5-stubs
+types-PyYAML
+types-colorama
+types-Pygments

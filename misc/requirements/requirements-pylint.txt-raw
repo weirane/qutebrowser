@@ -1,0 +1,12 @@
+pylint
+astroid
+./scripts/dev/pylint_checkers
+requests
+github3.py
+pefile
+
+# fix qute-pylint location
+#@ replace: qute[_-]pylint.* ./scripts/dev/pylint_checkers
+
+# Already included via test requirements
+#@ ignore: urllib3
